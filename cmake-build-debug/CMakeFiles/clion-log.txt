@@ -1,4 +1,0 @@
-"D:\Program Files\JetBrains\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" D:\MyCode\3DReconstruction
--- Configuring done
--- Generating done
--- Build files have been written to: D:/MyCode/3DReconstruction/cmake-build-debug
