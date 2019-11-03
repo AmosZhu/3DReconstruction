@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="3DReconstruction"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Polarisation\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/MyCode/3DReconstruction/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\MyCode\3DReconstruction\cmake-build-release\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f D:\MyCode\3DReconstruction\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\MyCode\3DReconstruction\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\MyCode\3DReconstruction\cmake-build-release\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/MyCode/3DReconstruction/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\MyCode\3DReconstruction\cmake-build-release\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\MyCode\3DReconstruction\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\MyCode\3DReconstruction\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\MyCode\3DReconstruction\cmake-build-release\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ShapeEstimation">
+				<Option output="D:/MyCode/3DReconstruction/cmake-build-release/ShapeEstimation.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/MyCode/3DReconstruction/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/Dependent/opencv/build_vs/install/include"/>
+					<Add directory="D:/MyCode/3DReconstruction/."/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\MyCode\3DReconstruction\cmake-build-release\Makefile VERBOSE=1 ShapeEstimation"/>
+					<CompileFile command="nmake /NOLOGO /f D:\MyCode\3DReconstruction\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\MyCode\3DReconstruction\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\MyCode\3DReconstruction\cmake-build-release\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ShapeEstimation/fast">
+				<Option output="D:/MyCode/3DReconstruction/cmake-build-release/ShapeEstimation.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/MyCode/3DReconstruction/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/Dependent/opencv/build_vs/install/include"/>
+					<Add directory="D:/MyCode/3DReconstruction/."/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\MyCode\3DReconstruction\cmake-build-release\Makefile VERBOSE=1 ShapeEstimation/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\MyCode\3DReconstruction\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\MyCode\3DReconstruction\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\MyCode\3DReconstruction\cmake-build-release\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/MyCode/3DReconstruction/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\MyCode\3DReconstruction\cmake-build-release\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\MyCode\3DReconstruction\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\MyCode\3DReconstruction\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\MyCode\3DReconstruction\cmake-build-release\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PolarisationInfo">
+				<Option output="D:/MyCode/3DReconstruction/cmake-build-release/Polarisation/PolarisationInfo.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/MyCode/3DReconstruction/cmake-build-release/Polarisation"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/Dependent/opencv/build_vs/install/include"/>
+					<Add directory="D:/MyCode/3DReconstruction/."/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\MyCode\3DReconstruction\cmake-build-release\Polarisation\Makefile VERBOSE=1 PolarisationInfo"/>
+					<CompileFile command="nmake /NOLOGO /f D:\MyCode\3DReconstruction\cmake-build-release\Polarisation\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\MyCode\3DReconstruction\cmake-build-release\Polarisation\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\MyCode\3DReconstruction\cmake-build-release\Polarisation\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PolarisationInfo/fast">
+				<Option output="D:/MyCode/3DReconstruction/cmake-build-release/Polarisation/PolarisationInfo.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/MyCode/3DReconstruction/cmake-build-release/Polarisation"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/Dependent/opencv/build_vs/install/include"/>
+					<Add directory="D:/MyCode/3DReconstruction/."/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\MyCode\3DReconstruction\cmake-build-release\Polarisation\Makefile VERBOSE=1 PolarisationInfo/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\MyCode\3DReconstruction\cmake-build-release\Polarisation\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\MyCode\3DReconstruction\cmake-build-release\Polarisation\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\MyCode\3DReconstruction\cmake-build-release\Polarisation\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/MyCode/3DReconstruction/Polarisation/pol_utils.cpp">
+			<Option target="PolarisationInfo"/>
+		</Unit>
+		<Unit filename="D:/MyCode/3DReconstruction/Polarisation/pol_utils.h">
+			<Option target="PolarisationInfo"/>
+		</Unit>
+		<Unit filename="D:/MyCode/3DReconstruction/examples/Polarisation_Decompose.cpp">
+			<Option target="ShapeEstimation"/>
+		</Unit>
+		<Unit filename="D:/MyCode/3DReconstruction/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/MyCode/3DReconstruction/Polarisation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Polarisation\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
